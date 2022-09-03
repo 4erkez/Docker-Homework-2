@@ -2,7 +2,7 @@
 session_start();
 
 $conn = mysqli_connect(
-  '192.168.0.20',
+  'mysql_container',
   'root',
   'password123',
   'php_mysql_crud'
